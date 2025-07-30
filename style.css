@@ -1,68 +1,180 @@
 body {
-    background-color: #000;
+background-color: #201E43;
 }
-.intro {
-    background-color: #B6B09F;
-    height: 200px;
-    width: 350px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    top: 40%;
-    left:25%;
-    position: absolute;
-    border-radius: 20pt;
-    
-}
-.intro2 { /**Hi iam jazzam nice to meet you**/
- width: 600px;
- position: relative;
- color: aliceblue;
- font-weight: 600;
-}
-img {
-    z-index: 2;
-    position: absolute;
-    top: -50%;
-}
-.intro3 {
-    width: 300px;
-    text-align: center;
-    vertical-align:bottom;
-    margin-top: 0px;
-    padding: 30px;
-    font-family:Outfit;
-}
-#hi {
-    font-size: 30pt;
-    font-weight: 900;
-    font-weight: 900;
-}
-#nice {
-    font-size: 20pt;
-}
-.tab {
-    background-color: #EAE4D5;
-    position: absolute;
-    top: 0px;
+.social {
     width: 100%;
-    height: 30px;
-    left: 0px;
-    padding: 5px;
-    padding-bottom: 0px;
-}
-.icons {
+    height: 40px;
+    background-color:#134B70;
+    top: 0%;
     position: absolute;
-    top: 11px;
-    right:40px;
+    left: 0%;
+    right: 0%;
 }
 .icons i {
-    width: 25px;
+    color: #EEEE;
+    position: static;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 6px;
+    position: relative;
+    float: right;
+    right: 2%;
 }
-.tab button {
-    background-color: #F2F2F2;
-    border: #B6B09F solid ;
-    font-family:Outfit;
-    font-weight: bolder;
-    color: rgb(58, 57, 57);
+.tab {
+    width: 100%;
+    height: 40px;
+    background-color:#508C9B;
+    top: 40px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
 }
+.button {
+    margin-left: 30px;
+    margin-top: 9px;
+    left: 40px;
+    position: absolute;
+}
+#button {
+    color: #EEEE;
+    margin-right: 10px;
+    background-color: #508C9B;
+    border-color: #ffffff;
+    border-radius: 4pt;
+    width: 70px;
+    font-family: Outfit;
+}
+.backgroundcontainer {
+    width: 100%;
+    height: 700px;
+    top: 80px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+}
+.mainbox{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 60px;
+}
+.intro {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    top: 30px;
+    font-family: Outfit;
+    font-size: xx-large;
+    color: #EEEEEE;
+}
+.profile {
+
+    width: 300px;
+    height: 385px;
+    position: absolute;
+    left: 300px;
+}
+img#Jazzam {
+    width: 100%;
+    width: 100%;
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+.horizontal {
+    background-color: #EEEEEE;
+    height: 3px;
+    width:80%;
+    position: absolute;
+    top: 500px;
+}
+.skillscontainerbackground {
+    background-color: #191734;
+    width: 100%;
+    height:1500px;
+    max-height: max-content;
+    top: 582px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+
+}
+.skillcontainer {
+    color: #70c3d7;
+    font-family: Outfit;
+    font-size: 35px;
+}
+.list-skillbox {
+    width: 89%;
+    position: absolute;
+    height: 600px;
+    max-height: 1000px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Outfit;
+    font-size: 20pt;
+    text-align: center;
+}
+.skill1 {
+
+    width: 250px;
+    height: 330px;
+    margin: 30px;
+    border: solid white 3px;
+    position: relative;
+}
+#programming {
+    width: 100%;
+   height: 80%;
+   object-fit: cover;
+}
+.skill2 {
+    width: 250px;
+    height: 330px;
+    margin: 30px;
+    border: solid white 3px;
+}
+#Microsoft {
+   width: 100%;
+   height: 80%;
+   object-fit: cover;
+}
+.skill3 {
+
+    width: 250px;
+    height: 330px;
+    margin: 30px;
+    border: solid white 3px;
+    
+}
+#Problem {
+   width: 100%;
+   height: 80%;
+   object-fit: cover;
+}
+.skill4 {
+    width: 250px;
+    height: 330px;
+    margin: 30px;
+    border: solid white 3px;
+    
+}
+#computer {
+    width: 100%;
+   height: 80%;
+   object-fit: cover;
+}
+.list-skillbox h4 {
+color: #EEEEEE;
+margin: 1px;
+margin-left: px;
+
+}
+
